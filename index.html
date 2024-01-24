@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Github CheatSheet</title>
+  </head>
+  <body>
+    <div class="bg_wrapper">
+      <div class="content_bg">
+        <div class="content_wrapper">
+          <header>
+            <nav><img src="assets/img/Logo.svg" alt="logo" /></nav>
+            <article>
+              <h1>
+                The only <span>Cheatsheet</span> you want to get caught with
+              </h1>
+              <p>
+                Here is where you find all the most important Github functions
+                at just one place. From developers for developers.
+              </p>
+              <a class="btn" href="#main">Try out now</a>
+            </article>
+          </header>
+          <main id="main">
+            <h2>Enjoy the <span>Cheating</span></h2>
+            <article>
+              <h3>Branches anlegen und wechseln</h3>
+              <ol>
+                <li>
+                  1. <code>git branch</code> -
+                  <span
+                    >Zeigt alle vorhandenen branches an und unter “\* branch“,
+                    wo man sich gerade befindet.</span
+                  >
+                </li>
+                <li>
+                  2. <code>git branch "Branch_Name"</code> -
+                  <span>Legt einen neuen Branch an.</span>
+                </li>
+                <li>
+                  3. <code>git checkout "Branch Name"</code> -
+                  <span>Wechselt zu einem neuen Branch</span>
+                </li>
+                <li>
+                  4. <code>git checkout -b "Branch Name"</code> -
+                  <span
+                    >Legt einen neuen Branch "Branch Name ´" an und wechselt
+                    dahin</span
+                  >
+                </li>
+                <li>
+                  5. <code>git branch -d "Branch Name"</code> -
+                  <span>Löscht den branch "Branch Name"</span>
+                </li>
+              </ol>
+            </article>
+            <article>
+              <h3>Ablauf eines Merges (Zusammenführung zweier Branches)</h3>
+              <ol>
+                <li>
+                  1. <code>git checkout main</code> -
+                  <span
+                    >Wechselt zum main branch (Davor muss man sich auf dem main
+                    branch befinden)</span
+                  >
+                </li>
+                <li>
+                  2. <code>git merge "Branch Name"</code> -
+                  <span
+                    >Versucht den main Branch mit dem "Branch Name"
+                    zusammenzuführen</span
+                  >
+                </li>
+                <li class="aufzählung">
+                  3.
+                  <li class="aufzählung"><code>- git add .</code></li>
+                  <li class="aufzählung"><code>- git commit -m"merge branch"</code></li>
+                  <li class="aufzählung"><code>- git push</code></li>
+                  >
+                </li>
+                <li>
+                  4. <code>git branch -d "Branch Name"</code>  - 
+                  <span>Löscht den Branch</span
+                  >
+                </li>
+              </ol>
+            </article>
+            
+          </main>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
