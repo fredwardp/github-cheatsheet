@@ -198,6 +198,11 @@ h1 span {
   padding: 13px 50px;
   display: inline-block;
   margin-bottom: 11%;
+  transition: all 0.6s ease;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 20px rgba(230, 170, 254, 0.6);
 }
 
 /* ! main */
