@@ -131,7 +131,8 @@ code {
 
 .bg_wrapper {
   background: url(assets/img/lila_blur.png) -200px -200px,
-    url(assets/img/blue_blurr.png) 0 270px;
+    url(assets/img/blue_blurr.png) 0 270px,
+    url(assets/img/pink_blurr.png) right 140px;
   background-size: 50%;
   background-repeat: no-repeat;
   background-color: #272727;
